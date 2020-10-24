@@ -1,31 +1,31 @@
 module.exports = {
-  name: "Supermaya",
+  name: "Plannr.dev",
   shortDesc:
-    "An 11ty starter kit designed to help you add rich features to a site without a complicated build process.",
-  url: "",
-  authorEmail: "mike@madebymike.com.au",
-  authorHandle: "@MikeRiethmuller",
-  authorName: "Mike",
+    "A blog dedicted to planning for software projects.",
+  url: "https://plannr.netlify.app/",
+  authorEmail: "maurizio@plannr.dev",
+  authorHandle: "@mauriziopz",
+  authorName: "Maurizio",
   postsPerPage: 4,
   socialImage: "/img/social.jpg",
   theme: {
     primary: {
-      background: "white",
-      text: "black",
+      background: "#eee",
+      text: "#111",
       highlight: "#666",
     },
     secondary: {
-      background: "black",
-      text: "white",
+      background: "#111",
+      text: "#eee",
       highlight: "#666",
     },
   },
 
   keystone: {
-    comments: true,
-    bookmarks: true,
-    claps: true,
-    login: true,
+    comments: false,
+    bookmarks: false,
+    claps: false,
+    login: false,
   },
   // Critical CSS results in much slower build times and uses a lot of system resources
   // turn on in production :)
